@@ -4,9 +4,9 @@ import { Container, Day, DayNumber, Dot, Grid, HabitButton, HabitSelector, Indic
 type HabitType =
   | "treino"
   | "alcool"
-  | "cannabis"
-  | "outrasDrogas"
-  | "cigarro";
+  // | "cannabis"
+  // | "outrasDrogas"
+  // | "cigarro";
 
 type DayRecord = {
   date: string;
@@ -16,9 +16,9 @@ type DayRecord = {
 const habitColors: Record<HabitType, string> = {
   treino: "#2563eb",
   alcool: "#dc2626",
-  cigarro: "#4b5563",
-  cannabis: "#16a34a",
-  outrasDrogas: "#7c3aed",
+  // cigarro: "#4b5563",
+  // cannabis: "#16a34a",
+  // outrasDrogas: "#7c3aed",
 };
 
 export const Calendar = () => {
