@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import { DefaultLayout } from "./layouts/DefaultLayout";
-import { Home } from "./assets/Home";
-import { Calendar } from "./assets/Calendar";
+import { Home } from "./pages/Home";
+import { Calendar } from "./pages/Calendar";
 
 export function Router() {
   return (
